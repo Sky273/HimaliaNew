@@ -7,3 +7,21 @@
     @apply antialiased;
   }
 }
+
+@layer components {
+  .btn {
+    @apply px-4 py-2 rounded-md transition-colors;
+  }
+
+  .btn-primary {
+    @apply bg-red-500 hover:bg-red-600 text-white;
+  }
+
+  .heading {
+    @apply text-4xl font-bold text-gray-100 mb-4;
+  }
+
+  .subheading {
+    @apply text-xl text-gray-400;
+  }
+}
